@@ -21,5 +21,3 @@ Each HTML page was linked to the shared stylesheet using:
 
 ```html
 <link rel="stylesheet" href="styles.css">
-
-<img width="1470" height="992" alt="Screenshot 2026-09-18 221450" src="https://github.com/user-attachments/assets/0e304911-6397-4a57-b18a-a9b314126666" />
