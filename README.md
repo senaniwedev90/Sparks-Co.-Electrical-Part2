@@ -4,7 +4,7 @@ Part 1
 
 This is multi-page website for Sparks &amp; Co Electrical, showcasing residential and light-commercial electrical services, recent projects, company credentials, and a client-side quote request form.
 
-Part
+Part2
 
 A styles.css file was added to Sparks & Co Electrical website. The stylesheet provides a consistent black, grey and silver colour palette across all pages.
 
@@ -19,5 +19,5 @@ The following styling was added:
 
 Each HTML page was linked to the shared stylesheet using:
 
-```
+```html
 <link rel="stylesheet" href="styles.css">
