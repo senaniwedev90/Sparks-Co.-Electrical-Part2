@@ -1,0 +1,15 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Enquiry | Cost & Availability | Sparks & Co</title><meta name="description" content="Enquire about services cost availability"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="css/style.css"></head><body>
+<header><div>Sparks & Co.</div><nav><a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">About</a><a href="gallery.html">Gallery</a><a href="enquiry.html">Enquiry</a><a href="contact.html">Contact</a></nav></header>
+<section style="padding:50px 5%;max-width:800px;margin:auto"><h1>Service Enquiry</h1>
+<form id="enquiryForm" novalidate>
+<label>Full Name *</label><input id="enqName" required minlength="3">
+<label>Email *</label><input id="enqEmail" type="email" required>
+<label>Phone *</label><input id="enqPhone" type="tel" required pattern="^\+27[0-9 ]+$" placeholder="+27 83 019 2837">
+<label>Service *</label><select id="enqService" required><option value="">Select</option><option value="repairs">Electrical Repairs</option><option value="panel">Panel Upgrade</option><option value="lighting">Lighting</option><option value="rewire">Rewire</option></select>
+<label>Date</label><input type="date" id="enqDate">
+<label>Details *</label><textarea id="enqDetails" required minlength="10"></textarea>
+<button type="submit" class="btn">Get Cost & Availability</button><p id="enqError" style="color:red"></p>
+</form><div id="enqResponse" style="display:none;background:#e6f4ea;padding:20px;border-radius:12px;margin-top:20px"></div></section>
+<footer style="background:#0f3d2e;color:white;padding:20px 5%">© 2026</footer>
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/><script src="https://unpkg.com/leaflet/dist/leaflet.js"></script><script src="js/main.js"></script>
+</body></html>
