@@ -6,6 +6,7 @@ This is multi-page website for Sparks &amp; Co Electrical, showcasing residentia
 
 Part2
 
+### Changes
 A styles.css file was added to Sparks & Co Electrical website. The stylesheet provides a consistent black, grey and silver colour palette across all pages.
 
 The following styling was added:
@@ -25,9 +26,7 @@ Each HTML page was linked to the shared stylesheet using:
 
 Part 3
 
-## Part 3 Enhancements
-
-### Changelog
+### Changes
 - Added Leaflet interactive map on contact.html showing Kempton Park service area
 - Implemented lightbox gallery, accordion FAQ, modal quote
 - Added dynamic service loading with search filter (JavaScript DOM manipulation)
