@@ -21,3 +21,27 @@ Each HTML page was linked to the shared stylesheet using:
 
 ```html
 <link rel="stylesheet" href="styles.css">
+```
+
+Part 3
+
+## Part 3 Enhancements
+
+### Changelog
+- Added Leaflet interactive map on contact.html showing Kempton Park service area
+- Implemented lightbox gallery, accordion FAQ, modal quote
+- Added dynamic service loading with search filter (JavaScript DOM manipulation)
+- Fixed Part 2 feedback: improved mobile-friendliness, added alt text, fixed header hierarchy
+- Implemented SEO: title/meta on all pages, robots.txt, sitemap.xml, image optimisation
+- Created enquiry.html with cost estimate logic and contact.html with mailto + JS validation
+- Deployed to Netlify
+
+### SEO Implemented
+On-Page: keywords, meta descriptions, H1-H3 structure, alt text, clean URLs, internal linking
+Off-Page: Social media links, Local SEO for Greater Metro
+Technical: robots.txt, sitemap.xml, page speed (minified JS/CSS)
+
+### References
+
+- Leafletjs.com (Map)
+- MDN Web Docs (Form Validation)
